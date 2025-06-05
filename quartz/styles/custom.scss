@@ -1,3 +1,90 @@
 @use "./base.scss";
 
-// put your custom CSS here!
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-size: 0.95rem;
+  line-height: 1;
+}
+
+
+
+.parchment {
+  position: relative;
+  padding: 2rem;
+  border-radius: 8px;
+  color: #2a1e0e;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif !important;
+  font-size: 0.75rem !important;   // ~14px
+  line-height: 1.5;
+  z-index: 1;
+  overflow: hidden;
+}
+
+
+.parchment p {
+  // font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif !important;
+  font-size: 0.8125rem !important;  // This is 13px
+  font-weight: 400 !important;
+  line-height: 1.45 !important;
+  margin: 0 0 1rem 0;
+}
+
+
+.parchment::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: url('/static/images/parchment-texture1.jpg') no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+  opacity: 0.5; /* ✅ Adjust fade strength here */
+  z-index: -1;
+  filter: brightness(0.9); /* Optional: dim the background */
+}
+
+.parchment h1,
+.parchment h2,
+.parchment h3 {
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  font-size: 1rem !important;  // This is 13px
+}
+
+.parchment h4 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 0.8125rem !important;  // This is 13px
+}
+
+.parchment p {
+  font-size: 1rem;
+  margin-top: 0;
+  // margin-bottom: 0.5rem;
+}
+
+.parchment ul {
+  // margin-top: 0;
+  // margin-block-start: 0;
+  // margin-block-end: 0.5rem;
+}
+
+.collapsible-toggle {
+  position: relative;
+  padding-left: 0.8em; /* space for arrow */
+}
+
+.collapsible-toggle::before {
+  content: "▼"; /* default icon */
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 0.8em;
+  color: #666;
+  transform: translateY(0.3em); /* vertically align with text */
+}
+
+.collapsible-toggle.open::before {
+  content: "▲"; /* icon when expanded */
+}

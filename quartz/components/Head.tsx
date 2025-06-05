@@ -97,6 +97,9 @@ export default (() => {
             return resource
           }
         })}
+
+        <script src="/static/collapse.js" defer></script>
+
       </head>
     )
   }
