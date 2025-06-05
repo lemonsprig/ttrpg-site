@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    <channel>
+      <title>Quartz 4</title>
+      <link>https://quartz.jzhao.xyz</link>
+      <description>Last 10 notes on Quartz 4</description>
+      <generator>Quartz -- quartz.jzhao.xyz</generator>
+      <item>
+    <title>House Rules</title>
+    <link>https://quartz.jzhao.xyz/House-Rules</link>
+    <guid>https://quartz.jzhao.xyz/House-Rules</guid>
+    <description>This game will primarily use the 2024 D&amp;D 5e ruleset.</description>
+    <pubDate>Thu, 05 Jun 2025 16:49:32 GMT</pubDate>
+  </item><item>
+    <title>Shifters</title>
+    <link>https://quartz.jzhao.xyz/Mechanics/Races/Shifters</link>
+    <guid>https://quartz.jzhao.xyz/Mechanics/Races/Shifters</guid>
+    <description></description>
+    <pubDate>Tue, 03 Jun 2025 21:45:49 GMT</pubDate>
+  </item><item>
+    <title>Kalashtar</title>
+    <link>https://quartz.jzhao.xyz/Mechanics/Races/Kalashtar</link>
+    <guid>https://quartz.jzhao.xyz/Mechanics/Races/Kalashtar</guid>
+    <description></description>
+    <pubDate>Tue, 03 Jun 2025 21:45:41 GMT</pubDate>
+  </item><item>
+    <title>Warforged</title>
+    <link>https://quartz.jzhao.xyz/Mechanics/Races/Warforged</link>
+    <guid>https://quartz.jzhao.xyz/Mechanics/Races/Warforged</guid>
+    <description></description>
+    <pubDate>Tue, 03 Jun 2025 21:45:31 GMT</pubDate>
+  </item><item>
+    <title>The World of Eberron</title>
+    <link>https://quartz.jzhao.xyz/The-World-of-Eberron</link>
+    <guid>https://quartz.jzhao.xyz/The-World-of-Eberron</guid>
+    <description>Welcome to Eberron A world of adventure, mystery and adventure Welcome to Eberron, a land where the arcane is woven into everyday life and adventure waits behind every corner.</description>
+    <pubDate>Tue, 03 Jun 2025 21:43:51 GMT</pubDate>
+  </item><item>
+    <title>Eberron - The Rising Tide</title>
+    <link>https://quartz.jzhao.xyz/</link>
+    <guid>https://quartz.jzhao.xyz/</guid>
+    <description> This is a blank Quartz installation. See the documentation for how to get started.</description>
+    <pubDate>Wed, 23 Aug 2023 19:09:04 GMT</pubDate>
+  </item>
+    </channel>
+  </rss>
